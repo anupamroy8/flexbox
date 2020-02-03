@@ -1,0 +1,392 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,caption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* Clearfix */
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+ed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/************** Styling starts here *****************/
+body {
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+        
+  }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.padder {
+    padding: 120px 0;
+}
+/* Header */
+.headerwrapper{
+    background: linear-gradient(to top right, #4F4E77, #793E79);
+    padding: 40px 0;
+    color: #ffffff;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+.nav-logo h1 {
+  text-decoration: none;
+}
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+.nav-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    color: #68BD8B;
+    margin-left: 24px;
+}
+/* header welcome */
+.welcome {
+    display: flex;
+    align-items: center;
+}
+.head-intro {
+    width: 50%;
+    border-right: 1px solid lightgray;
+    padding-right: 20px;
+}
+.head-intro h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+.head-para {
+    width: 50%;
+    font-size: 24px;
+    color: #B296BD;
+    padding-left: 44px;
+}
+/* button */
+.btn {
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.green {
+    color: #ffffff;
+    background-color: #68BD8B;
+    border: none;
+}
+.white {
+    color: #666666;
+    background-color: transparent;
+    border: 1px solid lightgray;
+}
+.green:hover {
+    background-color: rgb(124, 236, 171);
+}
+p {
+    margin-bottom: 20px;
+}
+/* Secondary */
+.secondary {
+    display: flex;
+    align-items: center;
+    color: #666666;
+}
+.second-intro {
+    margin-top: 60px;
+    width: 50%;
+    border-right: 2px solid lightgray;
+    padding-right: 20px;
+}
+.second-intro h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 16px 0;
+}
+.second-list {
+    width: 48%;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+li {
+    padding: 10px 0;
+    margin-left: 50px;
+}
+
+.right {
+    margin-right: 20px;
+}
+/* Tertiary */
+
+.tertiary {
+    display: flex;
+    background-color: #ffffff;
+    margin-top: 80px;
+}
+.ter-text {
+    padding: 40px 40px 0px;
+    border-bottom: 1px solid #666666;
+}
+.ter-text h4 {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.ter-text p {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.bggrey {
+    background-color: #FAFAFA;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 44px 0;
+}
+/* contact */
+.contact-form {
+  display: flex;
+    width: 50%;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+}
+.contact-form h5 {
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.contact-form p {
+  padding: 20px 0;
+  
+}
+.form {
+  background-color: transparent;
+ 
+}
+input {
+  background-color:transparent;
+  border: 1px solid #666666;
+  line-height: 2;
+  width: 46%;
+  margin: 20px 10px;
+  padding: 16px 8px;
+}
+textarea {
+  background-color:transparent;
+  border: 1px solid #666666;
+  line-height: 2;
+  width: 95%;
+  border-radius: 8px;
+  margin: 20px 10px;
+  padding: 16px 8px;
+}
+
+/*  */
+
+.link {
+  margin-right: 10px;
+  color: #68BD8B;
+  font-size: 20px;
+}
+footer {
+  margin-top: 100px;
+  border-top: 2px solid #999999;
+  padding: 40px 0;
+  text-align: center;
+  background-color: #FAFAFA;
+}
+span {
+  padding-left: 16px;
+  color: #999999;
+}

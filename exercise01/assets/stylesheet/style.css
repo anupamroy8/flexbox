@@ -56,11 +56,13 @@ table {
     background-color: lightgray;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-   align-items: center;
-   align-content: center;
-   
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+     
 }
+
 img {
-    padding: 20px;
+    margin: 16px 0;
+    width: 30%;
    }
